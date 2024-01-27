@@ -1,7 +1,23 @@
 Vueditor
 ===
 
-# Please note that this project has not been maintained for a long time, and there are some unfixed bugs, do not use it in a production environment.
+# Este é um fork do repositório original com a adição das seguintes funcionalidades
+
+## 1 - Upload de imagens customizado baseado na flag (customUpload)
+## 2 - Upload handler baseado na nova configuração customUploadHandler
+### Exemplo do customUploadHandler
+
+```
+const customUploadHandler = {
+  show(callback = (href)=>{}){
+    // show modal code
+    // dispath the callback function with img url to put image into editor
+  },
+  hide(){
+    // close modal code
+  }
+}
+```
 
 [![vueditor](https://img.shields.io/npm/v/vueditor.svg)](https://www.npmjs.com/package/vueditor)
 [![vueditor](https://img.shields.io/npm/l/vueditor.svg)](https://www.npmjs.com/package/vueditor)

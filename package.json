@@ -1,5 +1,5 @@
 {
-  "name": "vueditor",
+  "name": "json-vueditor",
   "version": "0.3.1",
   "description": "a wysiwyg editor based on Vue.js and Vuex",
   "repository": {
