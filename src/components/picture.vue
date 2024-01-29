@@ -10,7 +10,7 @@
 </style>
 
 <template>
-    <div class="ve-dialog" v-show="showPopup" @click.self="hideDialog">
+    <div class="ve-dialog" v-show="showPopup && customUpload != true" @click.self="hideDialog">
         <div :class="$style.wrap">
             <div class="ve-dialog-header">
                 {{ lang.title
