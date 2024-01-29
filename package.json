@@ -1,6 +1,6 @@
 {
   "name": "json-vueditor",
-  "version": "0.3.1d",
+  "version": "0.3.1e",
   "description": "a wysiwyg editor based on Vue.js and Vuex",
   "repository": {
     "type": "git",
