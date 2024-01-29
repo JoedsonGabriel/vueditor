@@ -72,15 +72,15 @@ export default {
                             value: `<img src="${href}">`,
                         });
                     });
-                    return;
+                } else {
+                    document.body.classList.add("ve-fixed");
                 }
-                document.body.classList.add("ve-fixed");
             } else {
                 if (this.customUpload == true) {
                     this.customUploadHandler.hide();
-                    return;
+                } else {
+                    document.body.classList.remove("ve-fixed");
                 }
-                document.body.classList.remove("ve-fixed");
             }
         },
     },
